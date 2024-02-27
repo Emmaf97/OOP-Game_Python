@@ -1,7 +1,7 @@
 from character import Character                                       # importing the character object from character file
 
-hero = Character(name="Hero", health=100, damage=5)
-enemy = Character(name="Enemy", health=100, damage=3)
+hero = Character(name="Hero", health=100)
+enemy = Character(name="Enemy", health=100)
 
 while True:                                                          # invoking the attack method for hero and enemy.
     hero.attack(enemy)
